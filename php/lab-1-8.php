@@ -3,6 +3,8 @@
 	echo(implode(" ", $input));
 	echo "\n";
 	echo(implode("-", $input));
+	echo "\n";
 	echo(implode("\n", $input));
+	echo "\n";
 
 ?>

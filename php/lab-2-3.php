@@ -1,7 +1,7 @@
 <?php
-	$email = "test@test.com";
+	$email = "test@.comtest";
 	$checkString=".com";
-	$position=strpos($email,$checkString);
+	$position=strrpos($email,$checkString);
 	$subString=substr($email,$position);
 	if(strcmp($checkString,$subString)==0)
 		echo "string ends with .com";
